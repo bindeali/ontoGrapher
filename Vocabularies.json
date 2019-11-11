@@ -1,5 +1,6 @@
 {
   "ZS-GOV": {
+    "type": "stereotype",
     "endpoint": "https://slovník.gov.cz/sparql",
     "language": "cs",
     "propertyIRI": "http://www.w3.org/2004/02/skos/core#inScheme",
@@ -8,6 +9,18 @@
     "definitionIRI": "http://www.w3.org/2004/02/skos/core#definition",
     "classIRI": ["http://www.w3.org/2002/07/owl#Class"],
     "relationshipIRI": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
-    "attributeIRI": []
+    "attributeIRI": [],
+    "attributes": [
+        {
+          name: "term label",
+          iri: rdfs:label,
+          type: xsd:string
+        },
+        {
+          name: "search index",
+          iri: skos:altLabel,
+          type: [xsd:string]
+        },
+      ]
   }
 }
