@@ -9,7 +9,6 @@
     "definitionIRI": "http://www.w3.org/2004/02/skos/core#definition",
     "classIRI": ["http://www.w3.org/2002/07/owl#Class"],
     "relationshipIRI": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
-    "attributeIRI": [],
     "attributes": [
       {
         "name": "term label",
@@ -20,7 +19,7 @@
         "name": "search index",
         "iri": "skos:altLabel",
         "type": ["xsd:string"]
-      },
+      }
     ]
   }
 }
